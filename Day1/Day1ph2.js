@@ -1,23 +1,10 @@
-function fun(){
-        let age=18;
-        let name="kiran";
-        let setStatus=false;
-        let userDefault=undefined;
-        let reponseValue=null;
-        console.log(age+" "+name+" "+setStatus+" "+userDefault+" "+reponseValue);
-        let oldage=age;
-        age=25;
-        let status=setStatus;
-        setStatus=true;
-        console.log(age+" "+name+" "+setStatus+" "+userDefault+" "+reponseValue);
+import React from 'react';
 
-}
-const Pah1=()=>
-{
-    return(
+const Ph2=()=> {
+    return (
         <div>
-            <button onClick={fun}>click</button>
+            <p>This is a team functional component</p>
         </div>
-    );
-};
- export default Pah1;
+    )
+}
+export default Ph2;
