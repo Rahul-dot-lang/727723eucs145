@@ -3,7 +3,7 @@ import React from 'react';
 const Cw2=()=> {
     return (
         <div>
-            <p>Helooooooo</p>
+            <p>This is World Functional Component</p>
         </div>
     )
 }
